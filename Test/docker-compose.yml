@@ -1,9 +1,0 @@
-version: '1'
-services:
-  app:
-    build: .
-    image: app:1.0.0
-    volumes:
-    - .src:/usr/share/nginx/htmml
-    ports:
-    - "69:69"
